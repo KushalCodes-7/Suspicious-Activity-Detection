@@ -1,0 +1,15 @@
+# Python virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local data / uploads
+uploads/
+
+# OS junk
+.DS_Store
+
+# (optional) large zip/model downloads if any
+*.zip
