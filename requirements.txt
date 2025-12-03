@@ -1,10 +1,10 @@
-# Core ML stack (safe versions)
+# Core ML stack (Render-supported versions)
 numpy<2
 tensorflow-cpu==2.20.0
 tensorflow-hub==0.16.1
 
 # Computer vision
-opencv-python==4.9.0.80
+opencv-python-headless==4.9.0.80
 
 # Web backend
 fastapi==0.110.0
