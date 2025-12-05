@@ -1,5 +1,5 @@
-# Core
-numpy==1.25.2
+# Core ML stack (Render-supported versions)
+numpy<2
 tensorflow-cpu==2.20.0
 tensorflow-hub==0.16.1
 
@@ -12,8 +12,5 @@ uvicorn==0.29.0
 python-multipart==0.0.9
 jinja2==3.1.3
 
-# Email / validation
+# Email support (built-in, but keeping compatibility)
 email-validator==2.1.1
-
-# small helpers
-typing-extensions==4.7.1
